@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Capstone 1 Development</title>
+	<!-- Bootstrap Link -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="./index.css">
+
+</head>
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav text-center">
+      <li class="nav-item active">
+        <a class="nav-link text-light" href="#Home">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#Gallery">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#Tools">Tools</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#contact">Contact</a>
+      </li>
+    </ul>
+     
+  </div>
+  </nav>
+	<!-- Navbar End -->
+
+	<!-- Home -->
+	<div class="bg-secondary">
+		<section id="Home" ></section>
+		<div class="text-center p-5">
+
+	<img src="images/polish.png" class="rounded-circle" style="width: 218px; height: 218px;">
+
+	<h2 class="text-uppercase text-light">Ashley Vargas</h2>
+	<h4 class="text-light">Fullstack Developer</h4>
+
+	<p class="text-light text-justify mx-auto" style="width: 500px;">I am Ashley Vargas, Grade 12 student in Escuela de Sophia of Caloocan, Inc. under TVL Track - ICT Strand.</p>
+		</div>
+	</div>
+	<!-- Home End -->
+
+	<!-- About Us -->
+	<div class="bg-dark">
+		<section id="Gallery"></section>
+		<div class="text-center text-light p-5">
+		<h2 class="font-weight-bold">Gallery</h2>
+
+		<h4 class="font-weight-bold text-dark">My Projects</h4>
+
+		<img src="images/s09.jpeg" alt="" class="w-75 h-50 container p-5">
+		
+		<img src="images/s08.jpeg" alt="" class="w-75 h-50 container p-5">
+		
+		<img src="images/s13-s14.jpeg" alt="" class="w-75 h-50 container p-5">
+	  </div>           
+  </div>
+	<!-- About Us End -->
+
+	<!-- Tools -->
+	<div >
+		<section id="Tools" ></section>
+		<div class="text-center p-5">
+		<h4 class="font-weight-bold">Tools</h4>
+		
+
+		<div class="">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Breezeicons-apps-48-sublime-text.svg/2048px-Breezeicons-apps-48-sublime-text.svg.png" alt="3" class="p-3" style="width: 150px; height: 150px;">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="2" class="p-3" style="width: 150px; height: 150px;">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/1200px-CSS3_logo.svg.png" alt="" class="p-3" style="width: 150px; height: 150px;">
+	  </div>		
+	  </div>
+	</div>
+	<!-- Tools End -->
+
+	<!-- Inquiries -->
+  <div class="container-fluid">
+		<h4>Send Inquiry</h4>
+  <form>
+  <div class="form-group">
+    <label for="name">Name:</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter name">
+  </div>
+  <div class="form-group">
+    <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="msg">Message:</label>
+      <textarea class="form-control" id="msg" placeholder="Write concern" rows="3"></textarea>
+  </div>
+  </form>
+  
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-outline-dark btn-block font-weight-bold btn-info btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+
+      <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">          
+          <h4 class="modal-title">Thank You!</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Message Saved.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      </div>
+      
+    </div>
+  </div>  
+  </div>
+  <!-- Inquiries End -->
+
+	<!-- Contact -->
+	<section id="pre-footer">
+    <div class="container-fluid">
+		<section id="contact"></section>
+		<div class="text-center">
+		<h4 class="font-weight-bold text-dark">Contact</h4>
+		
+		<a href="https://www.facebook.com/vargas.ashley18"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" class="rounded-circle" style=" width: 50px; height: 50px;"></a>
+
+		<a href="mailto:ashleynicole.vargas@edsci.edu.ph"><img src="https://logodix.com/logo/491680.png" class="rounded-circle" style="width: 50px; height: 50px;"></a>
+
+		<a href="https://www.linkedin.com/in/ashley-vargas-9b8063270/"><img src="https://solo72horas.es/wp-content/uploads/2019/10/linkedin_circle_logo.png" class="rounded-circle" style="width: 50px; height: 50px;"></a>
+	  </div>
+	  </div>
+  </section>
+  <!-- End of Contact -->
+
+  <!-- Footer -->
+
+	<footer id="footer">
+            <span>Ashley Vargas</span>
+            <span>|</span>Developer</span>
+            <span>|</span>
+            <span>&copy; 2023</span>
+  </footer>
+        <!-- end of Footer -->
+
+
+	 <!-- Bootstrap Script -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+        <!-- End of Bootstrap Script -->
+	
+</body>
+</html>
